@@ -1,5 +1,5 @@
-# Google-Drive-Document-Picker
-This is an example iOS swift project that help you to browse Google Drive files.
+# iOS Swift Google Drive Document Picker
+This is an example iOS swift project that helps you to browse Google Drive files.
 
 You need to create a Google Drive app 
 <a href="https://developers.google.com/drive/ios/quickstart?ver=swift">Google Drive iOS Swift Guide</a>
