@@ -209,6 +209,7 @@ class GoogleDriveViewController: UIViewController , UINavigationControllerDelega
             print("Authentication success")
             self.driveService.authorizer = authResult
             viewController.dismissViewControllerAnimated(true, completion: nil)
+            GTMOAuth2ViewControllerTouch.saveParamsToKeychainForName(self.kKeychainItemName as String, authentication: authResult)
         }
         
     }
